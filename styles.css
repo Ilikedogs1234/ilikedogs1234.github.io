@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600');
+
+.jumbotron {
+    background-image: url(../ilikedogs1234.github.io/assets/Hartsfield_Jackson.jpg); 
+    background-size: cover;
+
+}
+.text_container {
+    padding-top: 20%;
+    padding-bottom: 20%;
+    text-align: center;
+    text-shadow: 2px 2px #ffffff;
+}
+body {
+	margin: 0;
+	background:#f2f2f2;
+	font-family: 'Work Sans', sans-serif;
+    font-weight: 800;
+}
+p,h1,h2,h3 {
+    color:black;
+}
+
+nav img {
+    width: 175px;
+    height: 75px;
+}
