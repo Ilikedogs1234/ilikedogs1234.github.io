@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600');
 
 .jumbotron {
-    background-image: url(../ilikedogs1234.github.io/assets/Hartsfield_Jackson.jpg); 
+    background-image: url(../SoSaAirlines.github.io/assets/Hartsfield_Jackson.jpg); 
     background-size: cover;
 
 }
@@ -12,7 +12,7 @@
     text-shadow: 2px 2px #ffffff;
 }
 #mountainImage {
-    background-image: url(../ilikedogs1234.github.io/assets/Mountains.jpg);
+    background-image: url(../SoSaAirlines.github.io/assets/Mountains.jpg);
     background-size:cover;
     background-repeat: no-repeat;
     background-position:50% 50%;
