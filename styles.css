@@ -1,15 +1,29 @@
 @import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600');
 
-.jumbotron {
+#airport {
     background-image: url(../SoSaAirlines.github.io/assets/Hartsfield_Jackson.jpg); 
     background-size: cover;
 
+}
+nav {
+    color: #FFFFFF;
+    background-color: #CC3333;
 }
 .text_container {
     padding-top: 20%;
     padding-bottom: 20%;
     text-align: center;
     text-shadow: 2px 2px #ffffff;
+}
+#airHostess {
+    background-image: url(../SoSaAirlines.github.io/assets/AirHostess.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position:50% 50%;
+    height:471px;
+    font-size:0;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 #mountainImage {
     background-image: url(../SoSaAirlines.github.io/assets/Mountains.jpg);
@@ -27,10 +41,16 @@ body {
 	font-family: 'Work Sans', sans-serif;
     font-weight: 800;
 }
+#description {
+    font-weight: bold;
+}
 p,h1,h2,h3 {
     color:black;
 }
-
+#apply {
+    font-family: 'Work Sans', sans-serif;
+    text-align: center;
+}
 .logo {
     width: 175px;
     height: 75px;
