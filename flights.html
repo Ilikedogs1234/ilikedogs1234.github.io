@@ -37,13 +37,13 @@
                     margin:0;
                     padding:0;">
                         <li>
-                            <button type="button" class="btn btn-light btn-block">SC -> GA</button>
+                            <button type="button" class="btn btn-light btn-block">ATL -> CHA</button>
                         </li>
                         <li>
-                            <button type="button" class="btn btn-light btn-block">GA -> NC</button>
+                            <button type="button" class="btn btn-light btn-block">ATL -> RAL</button>
                         </li>
                         <li>
-                            <button type="button" class="btn btn-light btn-block">NC -> FL</button>
+                            <button type="button" class="btn btn-light btn-block">ATL -> ORL</button>
                         </li>
                     </ul>
                     <h1>Tickets On Sale</h1>
@@ -53,27 +53,31 @@
                     margin:0;
                     padding:0;">
                         <li>
-                            <button type="button" class="btn btn-light btn-block">SC -> GA</button>
+                            <button type="button" class="btn btn-light btn-block">ATL -> MIA</button>
                         </li>
                         <li>
-                            <button type="button" class="btn btn-light btn-block">GA -> NC</button>
+                            <button type="button" class="btn btn-light btn-block">ATL -> CHA</button>
                         </li>
                         <li>
-                            <button type="button" class="btn btn-light btn-block">NC -> FL</button>
+                            <button type="button" class="btn btn-light btn-block">ATL -> MEM</button>
                         </li>
                     </ul>
                     <hr>
                 </div>
                 <div class="col-md-9" style="background-color:rgb(250,250,250);">
-                    <div id="flightCard" style="margin-top: 5%;">
+                    <div id="flightCard1" style="margin-top: 5%;">
                         <div class="card flex-row flex-wrap">
                             <div class="my-auto card-header border-0" style="background-color:white">
                                 <img class="logo" src="assets/Logo.PNG" alt="">
                             </div>
-                            <div class="card-block p-4">
+                            <div class="card-block p-4" style="width: 300px;">
                                 <h4 class="card-title">Atlanta -> Charleston</h4>
                                 <p class="card-text">Start Time: 10:50 AM</p>
                                 <p class="card-text">End Time: 3:20 PM</p>
+                            </div>
+                            <div class="card-block p-4">
+                                    <h4 class="card-title">Price</h4>
+                                    <h5 class="card-text text-center" id="price" style="font-size: 50px;">150$</h5>
                             </div>
                             <div class="w-100"></div>
                             <div class="card-footer w-100">
@@ -81,6 +85,86 @@
                             </div>
                         </div>
                     </div>
+                    <div id="flightCard2" style="margin-top: 5%;">
+                            <div class="card flex-row flex-wrap">
+                                <div class="my-auto card-header border-0" style="background-color:white">
+                                    <img class="logo" src="assets/Logo.PNG" alt="">
+                                </div>
+                                <div class="card-block p-4" style="width: 300px;">
+                                    <h4 class="card-title">Atlanta -> Raleigh</h4>
+                                    <p class="card-text">Start Time: 11:20 AM</p>
+                                    <p class="card-text">End Time: 12:05 PM</p>
+                                </div>
+                                <div class="card-block p-4">
+                                        <h4 class="card-title">Price</h4>
+                                        <h5 class="card-text text-center" id="price" style="font-size: 50px;">150$</h5>
+                                </div>
+                                <div class="w-100"></div>
+                                <div class="card-footer w-100">
+                                    Date: 12/27/19
+                                </div>
+                            </div>
+                    </div>
+                    <div id="flightCard3" style="margin-top: 5%;">
+                            <div class="card flex-row flex-wrap">
+                                <div class="my-auto card-header border-0" style="background-color:white">
+                                    <img class="logo" src="assets/Logo.PNG" alt="">
+                                </div>
+                                <div class="card-block p-4" style="width: 300px;">
+                                    <h4 class="card-title">Atlanta -> Orlando</h4>
+                                    <p class="card-text">Start Time: 7:00 PM</p>
+                                    <p class="card-text">End Time: 7:37 PM</p>
+                                </div>
+                                <div class="card-block p-4">
+                                        <h4 class="card-title">Price</h4>
+                                        <h5 class="card-text text-center" id="price" style="font-size: 50px;">150$</h5>
+                                </div>
+                                <div class="w-100"></div>
+                                <div class="card-footer w-100">
+                                    Date: 1/7/20
+                                </div>
+                            </div>
+                        </div>
+                        <div id="flightCard4" style="margin-top: 5%;">
+                                <div class="card flex-row flex-wrap">
+                                    <div class="my-auto card-header border-0" style="background-color:white">
+                                        <img class="logo" src="assets/Logo.PNG" alt="">
+                                    </div>
+                                    <div class="card-block p-4" style="width: 300px;">
+                                        <h4 class="card-title">Atlanta -> Memphis</h4>
+                                        <p class="card-text">Start Time: 3:30 AM</p>
+                                        <p class="card-text">End Time: 4:15 PM</p>
+                                    </div>
+                                    <div class="card-block p-4">
+                                            <h4 class="card-title">Price</h4>
+                                            <h5 class="card-text text-center" id="price" style="font-size: 50px;">150$</h5>
+                                    </div>
+                                    <div class="w-100"></div>
+                                    <div class="card-footer w-100">
+                                        Date: 4/7/20
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="flightCard5" style="margin-top: 5%;">
+                                    <div class="card flex-row flex-wrap">
+                                        <div class="my-auto card-header border-0" style="background-color:white">
+                                            <img class="logo" src="assets/Logo.PNG" alt="">
+                                        </div>
+                                        <div class="card-block p-4" style="width: 300px;">
+                                            <h4 class="card-title">Atlanta -> Miami</h4>
+                                            <p class="card-text">Start Time: 4:00 PM</p>
+                                            <p class="card-text">End Time: 4:57 PM</p>
+                                        </div>
+                                        <div class="card-block p-4">
+                                                <h4 class="card-title">Price</h4>
+                                                <h5 class="card-text text-center" id="price" style="font-size: 50px;">150$</h5>
+                                        </div>
+                                        <div class="w-100"></div>
+                                        <div class="card-footer w-100">
+                                            Date: 6/1/20
+                                        </div>
+                                    </div>
+                                </div>
                 </div>
             </div>
         </div>
@@ -108,7 +192,7 @@
                         <div class="card-block p-4 ">
                             <h4 class="card-title">Price</h4>
                             <h5 class="card-text text-center" id="price" style="font-size: 50px;"></h5>
-                            <button type="button" class="btn" style="background-color: rgb(63, 211, 63);">Buy Now!</button>
+                            <button type="button" class="btn btn-primary" style="background-color: rgb(63, 211, 63); border: none;">Buy Now!</button>
                         </div>
                     </div>
                 </div>
@@ -186,6 +270,30 @@
             </div>
         </div>
     </div>
+    <footer style="padding-top: 10px;">
+            <h4 style="text-align: center;">Social Media Links</h4>
+              <br>
+              <div style = "text-align: center" class="links">
+                 <!-- Facebook -->
+                    <img src="https://simplesharebuttons.com/images/somacro/facebook.png" alt="Facebook" />
+    
+             <!-- Twitter -->
+                    <img src="https://simplesharebuttons.com/images/somacro/twitter.png" alt="Twitter" />
+    
+             <!-- Email -->
+    
+                    <img src="https://simplesharebuttons.com/images/somacro/email.png" alt="Email" />
+    
+             <!-- LinkedIn -->
+    
+                    <img src="https://simplesharebuttons.com/images/somacro/linkedin.png" alt="LinkedIn" />
+    
+             <!-- Reddit -->
+    
+                    <img src="https://simplesharebuttons.com/images/somacro/reddit.png" alt="Reddit" />
+            </div>
+                </div>
+               </footer> 
 </body>
 
 </html>
