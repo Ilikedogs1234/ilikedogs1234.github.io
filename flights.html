@@ -1,41 +1,50 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <script src = "script.js"></script>
-    <link rel = "stylesheet" href="styles.css">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
+
 <body>
-        <nav class = "navbar navbar-expand-sm navbar-light" style="background-color:#55d6aa;font-family: 'Work Sans', sans-serif;">
-            <a href="index.html" class = "navbar-brand"><img class = "logo" src="assets/Logo.PNG"></a>
-            <button class="navbar-toggler" data-toggle="collapse" data-target="#navBarMenu">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navBarMenu">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item"><a href = "flights.html" class="nav-link">Book a Flight</a></li>
-                    <li class="nav-item"><a href = "frequent.html" class="nav-link">Frequent Flyer Program</a></li>
-                    <li class="nav-item"><a href = "jobs.html" class="nav-link">Apply For a Job</a></li>
-                </ul>
-            </div>
-        </nav>
+    <nav class="navbar navbar-expand-sm navbar-light" style="background-color:#55d6aa;font-family: 'Work Sans', sans-serif;">
+        <a href="index.html" class="navbar-brand"><img class="logo" src="assets/Logo.PNG"></a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navBarMenu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navBarMenu">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a href="flights.html" class="nav-link">Book a Flight</a></li>
+                <li class="nav-item"><a href="frequent.html" class="nav-link">Frequent Flyer Program</a></li>
+                <li class="nav-item"><a href="jobs.html" class="nav-link">Apply For a Job</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div id="page1">
         <div class="container">
             <div class="row">
                 <div class="col-md-3">
-                    
+
                     <h1>Popular Flights</h1>
                     <hr>
                     <ul style="list-style-type: none;
                     list-style-position:inside;
                     margin:0;
                     padding:0;">
-                        <li><button type="button" class="btn btn-light btn-block">SC -> GA</button></li>
-                        <li><button type="button" class="btn btn-light btn-block">GA -> NC</button></li>
-                        <li><button type="button" class="btn btn-light btn-block">NC -> FL</button></li>
+                        <li>
+                            <button type="button" class="btn btn-light btn-block">SC -> GA</button>
+                        </li>
+                        <li>
+                            <button type="button" class="btn btn-light btn-block">GA -> NC</button>
+                        </li>
+                        <li>
+                            <button type="button" class="btn btn-light btn-block">NC -> FL</button>
+                        </li>
                     </ul>
                     <h1>Tickets On Sale</h1>
                     <hr>
@@ -43,24 +52,30 @@
                     list-style-position:inside;
                     margin:0;
                     padding:0;">
-                        <li><button type="button" class="btn btn-light btn-block">SC -> GA</button></li>
-                        <li><button type="button" class="btn btn-light btn-block">GA -> NC</button></li>
-                        <li><button type="button" class="btn btn-light btn-block">NC -> FL</button></li>
+                        <li>
+                            <button type="button" class="btn btn-light btn-block">SC -> GA</button>
+                        </li>
+                        <li>
+                            <button type="button" class="btn btn-light btn-block">GA -> NC</button>
+                        </li>
+                        <li>
+                            <button type="button" class="btn btn-light btn-block">NC -> FL</button>
+                        </li>
                     </ul>
                     <hr>
                 </div>
                 <div class="col-md-9" style="background-color:rgb(250,250,250);">
                     <div id="flightCard" style="margin-top: 5%;">
-                    <div class="card flex-row flex-wrap">
-                        <div class="my-auto card-header border-0" style="background-color:white">
-                            <img class="logo" src="assets/Logo.PNG" alt="">
-                        </div>
-                        <div class="card-block p-4">
-                            <h4 class="card-title">Atlanta -> Charleston</h4>
-                            <p class="card-text">Start Time: 10:50 AM</p>
-                            <p class="card-text">End Time: 3:20 PM</p>
-                        </div>
-                        <div class="w-100"></div>
+                        <div class="card flex-row flex-wrap">
+                            <div class="my-auto card-header border-0" style="background-color:white">
+                                <img class="logo" src="assets/Logo.PNG" alt="">
+                            </div>
+                            <div class="card-block p-4">
+                                <h4 class="card-title">Atlanta -> Charleston</h4>
+                                <p class="card-text">Start Time: 10:50 AM</p>
+                                <p class="card-text">End Time: 3:20 PM</p>
+                            </div>
+                            <div class="w-100"></div>
                             <div class="card-footer w-100">
                                 Date: 5/22/20
                             </div>
@@ -69,5 +84,108 @@
                 </div>
             </div>
         </div>
+    </div>
+    <div id="page2">
+        <div class="container"> 
+            <div class="row justify-content-center align-items-center" style="height: 500px; background-color:rgb(250,250,250);" >
+                <div class="col-md-7">
+                    <div class="card flex-row flex-wrap">
+                        <div class="my-auto card-header border-0" style="background-color:white">
+                            <img class="logo" src="assets/Logo.PNG" alt="">
+                        </div>
+                        <div class="card-block p-4">
+                            <h4 class="card-title" id="travelInfo"></h4>
+                            <p class="card-text" id="startTime"></p>
+                            <p class="card-text" id="endTime"></p>
+                        </div>
+                        <div class="w-100"></div>
+                        <div class="card-footer w-100" id="date">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card flex-row flex-wrap">
+                        <div class="card-block p-4 ">
+                            <h4 class="card-title">Price</h4>
+                            <h5 class="card-text text-center" id="price" style="font-size: 50px;"></h5>
+                            <button type="button" class="btn" style="background-color: rgb(63, 211, 63);">Buy Now!</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center">
+                <h4>Other Flights</h4>
+            </div>
+
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card flex-row flex-wrap">
+                            <div class="my-auto card-header border-0" style="background-color:white">
+                                <img class="logo" src="assets/Logo.PNG" alt="">
+                            </div>
+                            <div class="card-block p-4">
+                                <h4 class="card-title">Atlanta -> Charleston</h4>
+                                <p class="card-text">Start Time: 10:50 AM</p>
+                                <p class="card-text">End Time: 3:20 PM</p>
+                            </div>
+                            <div class="w-100"></div>
+                            <div class="card-footer w-100">
+                                Date: 5/22/20
+                            </div>
+                        </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card flex-row flex-wrap">
+                            <div class="my-auto card-header border-0" style="background-color:white">
+                                <img class="logo" src="assets/Logo.PNG" alt="">
+                            </div>
+                            <div class="card-block p-4">
+                                <h4 class="card-title">Atlanta -> Charleston</h4>
+                                <p class="card-text">Start Time: 10:50 AM</p>
+                                <p class="card-text">End Time: 3:20 PM</p>
+                            </div>
+                            <div class="w-100"></div>
+                            <div class="card-footer w-100">
+                                Date: 5/22/20
+                            </div>
+                        </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card flex-row flex-wrap">
+                            <div class="my-auto card-header border-0" style="background-color:white">
+                                <img class="logo" src="assets/Logo.PNG" alt="">
+                            </div>
+                            <div class="card-block p-4">
+                                <h4 class="card-title">Atlanta -> Charleston</h4>
+                                <p class="card-text">Start Time: 10:50 AM</p>
+                                <p class="card-text">End Time: 3:20 PM</p>
+                            </div>
+                            <div class="w-100"></div>
+                            <div class="card-footer w-100">
+                                Date: 5/22/20
+                            </div>
+                        </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card flex-row flex-wrap">
+                            <div class="my-auto card-header border-0" style="background-color:white">
+                                <img class="logo" src="assets/Logo.PNG" alt="">
+                            </div>
+                            <div class="card-block p-4">
+                                <h4 class="card-title">Atlanta -> Charleston</h4>
+                                <p class="card-text">Start Time: 10:50 AM</p>
+                                <p class="card-text">End Time: 3:20 PM</p>
+                            </div>
+                            <div class="w-100"></div>
+                            <div class="card-footer w-100">
+                                Date: 5/22/20
+                            </div>
+                        </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
 </body>
+
 </html>
